@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracking Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Job Application Tracker</h1>
+    <form id="job-entry-form">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="jobTitle" required><br><br>
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required><br><br>
+        <label for="application-date">Application Date:</label>
+        <input type="date" id="application-date" name="applicationDate" required><br><br>
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+            <option value="">Select Status</option>
+            <option value="submitted">Submitted</option>
+            <option value="in-review">In Review</option>
+            <option value="rejected">Rejected</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
+       
